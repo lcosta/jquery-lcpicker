@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 //EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+
+<html>
+ <head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript" language="JavaScript"></script>
+  <script src="http://jqueryjs.googlecode.com/svn/trunk/plugins/metadata/jquery.metadata.js" type="text/javascript" language="JavaScript"></script>
+  <script src="../jquery.lcpicker.js" type="text/javascript" language="JavaScript"></script>
+  
+  
+  
+  <script type="text/javascript" language="JavaScript">
+    $(function() {
+    
+        $('.colorpicker').lcpicker({showControls: false});
+    
+    });
+  </script>
+  
+  <style type="text/css">
+  
+    .lcpicker{width: 150px;padding:4px;background:#ffffff;border: 1px #000000 solid}
+    .lcpicker .lcpickerControls{margin-top:10px;}
+    .lcpicker input{width: 100px}
+  
+  </style>
+  
+ </head>
+ <body>
+
+
+
+
+
+
+
+
+<div>
+  <input type="text" value="EEDD22" id="c1" /> <span style="display:inline-block;width:15px;height:15px;margin:2px;border:1px solid #000;" class="colorpicker { size: 10, updateTo: '#c1' }"></span>
+</div>
+
+<div>
+  <input type="text" value="AEAE23" id="c2" /> <span id="dd" style="display:inline-block;width:15px;height:15px;margin:2px;border:1px solid #000;" class="colorpicker { size: 20, updateTo: '#c2', showControls: true, colors:['#dcdcdc','#000000'] }"></span>
+</div>
+ </body>
+</html>
